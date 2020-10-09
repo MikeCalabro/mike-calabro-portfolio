@@ -5,11 +5,20 @@ ul {
 #navbar {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(221, 219, 219, 0);
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: rgb(221, 219, 219);
+  padding-bottom: 14px;
   margin: -10px -8px -10px -8px;
-  position: fixed;
   left: 0px;
   top: 7px;
+  position: fixed;
+  width: 105%;
+  transition: background-color .6s;
+}
+
+.scrolling-active {
+  background-color: rgb(221, 219, 219);
 }
 
 #nav-button-list {
@@ -19,7 +28,7 @@ ul {
 }
 
 #logo-container {
-  padding-top:11px;
+  padding-top:14px;
   padding-left: 55px;
 }
 
@@ -31,16 +40,17 @@ ul {
 }
 
 .nav-link {
-  padding: 15px 20px 20px 20px;
+  padding: 15px 20px 22px 20px;
   margin-top: -14px;
   margin-bottom: -16px;
   margin-left: 2px;
-  transition: background-color .35s, border-color .35s;
+  transition: background-color .3s, border-color .3s;
   color: black;
   border-width: 5px 0px 0px 0px;
   border-style: solid;
   border-color: rgb(221, 219, 219, 0);
-
+  background-color: rgb(221, 219, 219, 0);
+  font-family: 'Playfair Display', serif;
 }
 
 .nav-link:hover {
@@ -57,7 +67,7 @@ a:link, a:visited {
 }
 
 #section-1 {
-  margin-top: 56px;
+  margin-top: 66px;
   height: 900px;
   width: 100%;
   background-color: white;
