@@ -5,9 +5,6 @@ ul {
 #navbar {
   display: flex;
   justify-content: space-between;
-  border-width: 0px 0px 1px 0px;
-  border-style: solid;
-  border-color: rgb(221, 219, 219);
   padding-bottom: 14px;
   margin: -10px -8px -10px -8px;
   left: 0px;
@@ -19,6 +16,7 @@ ul {
 
 .scrolling-active {
   background-color: rgb(221, 219, 219);
+  box-shadow: 2px 1px 7px 0px rgb(46, 46, 46);
 }
 
 #nav-button-list {
@@ -60,6 +58,11 @@ ul {
 
 #final-link {
   margin-right: 40px;
+  padding-bottom: 15px;
+}
+
+#git-cat {
+  width: 23px;
 }
 
 a:link, a:visited {
